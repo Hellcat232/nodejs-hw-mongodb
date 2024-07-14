@@ -7,8 +7,8 @@ import { env } from './utils/env.js';
 
 import router from './routers/index.js';
 
-import notFoundHandler from './middleware/notFoundHandler.js';
-import errorHandler from './middleware/errorHandler.js';
+import { notFoundHandler } from './middleware/notFoundHandler.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 import { UPLOAD_DIR } from './constants/index.js';
 
